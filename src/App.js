@@ -20,6 +20,7 @@ function App() {
       console.log(err,"youbad");
     })
   },[])
+  console.log(nasaData)
   return (
     <StyledBackground className="App">
     <Header />
