@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 // import axios from 'axios';
 import styled from 'styled-components';
 
 
 function Header() {
-    return(
+    return (
         <div>
             <StyleHeader> NASA Picture of the Day</StyleHeader>
             <StyleMe> React App by Nate Pace</StyleMe>
@@ -26,7 +26,7 @@ const StyleMe = styled.h4`
 color:white;
 `
 
-export default Header; 
+export default Header;
 
 // import React, {useState, useEffect} from "react";
 // import styled from "styled-components";
